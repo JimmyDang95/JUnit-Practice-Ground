@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ControllFlowForTest {
+class ControlFlowForTest {
 
 
     @Test
@@ -13,7 +13,7 @@ class ControllFlowForTest {
         int num1 = 0;
 
         //When
-        int actual = ControllFlowFor.faculty(0);
+        int actual = ControlFlowFor.faculty(0);
 
         //Then
         assertEquals(1, actual);
@@ -26,7 +26,7 @@ class ControllFlowForTest {
         int num1 = 1;
 
         //When
-        int actual = ControllFlowFor.faculty(1);
+        int actual = ControlFlowFor.faculty(1);
 
         //Then
         assertEquals(1, actual);
@@ -40,7 +40,7 @@ class ControllFlowForTest {
         int num1 = 2;
 
         //When
-        int actual = ControllFlowFor.faculty(2);
+        int actual = ControlFlowFor.faculty(2);
 
         //Then
         assertEquals(2, actual);
@@ -52,7 +52,7 @@ class ControllFlowForTest {
         int num3 = 3;
 
         //When
-        int actual = ControllFlowFor.faculty(num3);
+        int actual = ControlFlowFor.faculty(num3);
 
         //Then
         assertEquals(6, actual);

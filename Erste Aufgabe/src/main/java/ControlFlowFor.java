@@ -1,4 +1,4 @@
-public class ControllFlowFor {
+public class ControlFlowFor {
     public static void main(String[] args) {
 
     }
